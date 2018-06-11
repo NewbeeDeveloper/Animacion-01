@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animación Encabezado</title>
+	<!-- Estilos CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Inicio Elementos a animar, se debe agregar un div por letra o elemento. Adicional
+	 se debe ajustar el porcentaje en el archivo style.css, en la etiqueta .box -->
+<header>
+	<div class="box one"><span class="textoborde">A</span></div>
+	<div class="box two"><span class="textoborde">N</span></div>
+	<div class="box three"><span class="textoborde">I</span></div>
+	<div class="box four"><span class="textoborde">M</span></div>
+	<div class="box five"><span class="textoborde">A</span></div>
+	<div class="box six"><span class="textoborde">C</span></div>
+	<div class="box seven"><span class="textoborde">I</span></div>
+	<div class="box eight"><span class="textoborde">Ó</span></div>
+	<div class="box nine"><span class="textoborde">N</span></div>
+	<div class="box ten"><span class="textoborde">-</span></div>
+	<div class="box eleven"><span class="textoborde">1</span></div>
+<!-- Fin Elementos a animar -->
+	<nav>
+		<ul>
+		  <li><a class="active" href="#home">Home</a></li>
+		  <li><a href="#about">About</a></li>
+		  <li><a href="#blog">Blog</a></li>
+		  <li style="float:right"><a href="#contact">Contact</a></li>
+		</ul>	
+	</nav>
+</header>
+<div class="container" style="margin-top:30px">
+	<section class="text">
+		<div class="row">
+			<div class="col-sm-12">
+			<h1><u><b>Header Animado</b></u></h1>
+			<p>Cada letra se encuentra contenida en un div, los cuales se animan con un traslado de posición y una rotación de cada elemento. Adicional se aplica un retardo para que cada elemento se ejecute después de otro</p>
+			<p>Características:
+				<ul>
+					<li>Animación de DIVS</li>
+					<li>Diseño Responsivo</li>
+					<li>Menú de Navegación</li>
+					<li>Bootstrap Integrado</li>
+					<li>Incluye instrucciones para su integración</li>
+				</ul>
+			</p>
+			<h2><a href="">GitHub</a></h2>
+			</div>
+		</div>
+	</section>
+</div>
+
+	<!-- JavaScript -->
+	<script src="js/anime.js"></script>
+	<script src="js/main.js"></script>
+
+<footer>
+	© Creado por Eduardo Echeverría 
+</footer>
+</body>
+</html>
